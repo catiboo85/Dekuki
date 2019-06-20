@@ -1,0 +1,857 @@
+body {
+    font-family: 'Apercu', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 0;
+
+}
+
+hr {
+    border-width: 0.5px !important;
+}
+
+.h6 {
+    height: 28rem;
+}
+
+.line-logo{
+    width: 4rem;
+}
+
+.left-text {
+    font-family: 'Platform-Light';
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+.horizontal-line {
+    border-width: 0.5px;
+}
+
+.divider-text h1{
+    font-family: 'Platform', sans-serif;
+    font-size: 4rem;
+    line-height: 1.25;
+    text-transform: lowercase;
+    margin: 0;
+
+}
+
+.news-container{
+    background-size: 100% 101%;
+}
+
+.collection-slider .slider-cont{
+    max-width: 100%;
+    margin-left: 10rem;
+    display: block;
+}
+
+.v-line {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: transparent;
+}
+
+.menu-nav{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu .menu-nav .menu-item a{
+    font-family: 'Platform-Medium';
+    font-size: 3rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem, 1rem;
+    -webkit-text-stroke: 1px #102636;
+    color: transparent;
+
+}
+
+.nav-menu .menu-item a:hover{
+    color: #102636;
+    
+}
+
+
+.nav-menu .menu-nav:hover .menu-item a{
+    opacity: 0.25;
+}
+
+.nav-menu .menu-nav .menu-item a:hover{
+    opacity: 1;
+}
+
+.nav-menu .menu-nav .menu-item a{
+    transition: opacity 1s ease;
+}
+
+.divider-text {
+    top: 50%;
+    
+}
+
+.divider-image {
+    top: -11rem;
+}
+
+.divider-logo {
+    bottom: -10rem;
+    margin: 0;
+}
+
+.divider-logo hr{
+    transform: rotate (90deg);
+    width: 1px;
+    border: none;
+}
+
+.pb8 {
+    padding-bottom: 20rem;
+}
+
+h1,
+h2, 
+h3 {
+    margin: 0;
+}
+
+.collection-headline,
+.about-headline {
+    font-family: 'Platform-Medium', sans-serif;
+    font-size: 5rem;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    margin-top: 0 !important;
+}
+
+.about-subheader {
+    line-height: 1.4;
+}
+
+.about-text{
+    margin-top: 0 !important;
+    margin-right: 11rem;
+}
+
+.about-name {
+    display: flex;
+    white-space: nowrap;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translatex(-50%);
+    width: 200%;
+}
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }  
+
+.marquee {
+    display: block;
+    animation: marquee 5s linear infinite;
+    line-height: 1;
+    font-family: 'Platform-Medium', sans-serif;
+    font-size: 8rem;
+    color: transparent;
+    padding: 2rem;
+}
+
+.kuki-text h3,
+.kuki-text-2 h3{
+    font-family: 'Platform-Light', sans-serif;
+    text-transform: capitalize;
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+.kuki-text p{
+    width: 80%;
+}
+
+
+
+.kuki-image {
+    width: 20rem;
+    position: relative;
+}
+
+.kuki-line {
+    width: 20rem;
+    left: -15rem;
+    top: 16rem;
+
+}
+
+.kuki-line-2 {
+    width: 20rem;
+    right: -15rem;
+    top: 16rem;
+}
+
+.kuki-text-2 {
+    padding-left: 5rem;
+}
+
+.dekuki-form {
+    background-color: transparent;
+    outline: none;
+}
+
+.dekuki-form::placeholder{ 
+    color: #102636;
+    font-size: 0.7rem;
+}
+
+.icon-arrow{
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+    border: none;
+    top: 35%;
+    background-repeat: no-repeat;
+    
+}
+.icon-arrow-sm{
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+    border: none;
+    top: 40%;
+    background-repeat: no-repeat;
+    width: 0.75rem;
+    height: 0.5rem;
+
+    
+}
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 100vh;/* height of carousel */
+  }
+
+.gallery-slide{
+    width: 75%;
+    margin: 0;
+}
+
+
+.flickity-page-dots {
+    text-align: left !important;
+}
+
+
+.gallery-image img{
+    width: auto !important;
+    height: auto !important;
+    display: block;
+}
+
+.caption {
+    max-width: 55rem;
+}
+
+.container {
+    max-width: 1300px;
+    
+}
+
+.toggle-nav img{
+    width: 2.5rem;
+}
+
+.nav-color a{
+    color: #102636;
+}
+
+.menu-toggle {
+    width: 2.75rem;
+    cursor: pointer;
+  }
+  
+  .active.menu-toggle {
+    background-image: url('../assets/close.svg');
+    background-repeat: no-repeat;
+    text-indent: -999rem;
+  }
+  
+  .menu nav {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+  
+  .open {
+    transform: translateX(0);
+  }
+  
+  .menu-overlay {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 4;
+  }
+  
+  .overlay-open.menu-overlay {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .menu-background{
+      background-color: #E8EFEE;
+  }
+
+
+.icon-container {
+    width: 10rem;
+}
+
+.explore {
+    color: transparent
+    
+}
+
+.explore:hover {
+    color: #E8EFEE;
+    border: .5rem solid #E8EFEE;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.site-info-a{
+    background-color: #102636;
+}
+
+.site-info-b{
+    background-color: #E8EFEE;
+}
+
+.site-footer a{
+    display: block;
+}
+.site-footer a,
+.form{
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.site-footer li, 
+.contact a{
+    margin-bottom: 2.5rem;
+}
+
+.footer-menu{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-menu-light a{
+    color: #102636;
+}
+
+.footer-menu-dark a{
+    color: #E8EFEE;
+}
+.footer-logo img {
+    width: 12rem;
+}
+
+.light-color {
+color: #E8EFEE;
+}
+
+.dark-color {
+    color: #102636;
+    }
+
+.form-footer {
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #E8EFEE;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+.form-footer::placeholder{ 
+    color: #E8EFEE;
+    font-size: 0.5rem;
+    
+}
+
+.copyright::before {
+    content:"\00a9";
+}
+
+.copyright{
+    font-size: 0.6rem;
+}
+
+
+.form-footer-b {
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #102636;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+.form-footer-b::placeholder{ 
+    color:#102636;
+    font-size: 0.5rem;
+    
+}
+
+.bottom-icon {
+    display: none;
+}
+
+.h9{
+    height: 16rem;
+}
+
+.front {
+    z-index: 0;
+    transform: scale(1);
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+
+}
+.front:hover{
+    animation: in 3s ease-in-out 1 normal; 
+    z-index: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+@keyframes in {
+    from { z-index: 1; transform: scale(1); }
+    to { z-index: 2; transform: scale(1.1); }
+  }
+
+  @media(max-width: 70em) {
+    .news-text {
+        padding-right: 14rem;
+        padding-left: 14rem;
+    }
+
+    .divider-text h1{
+            font-size: 3rem;
+        }
+
+    .news-form {
+        margin-right: 0;
+        margin-left:0;
+    }
+
+    .kuki-line {
+        width: 15rem;
+        left: -9rem;
+    }
+
+    .kuki-line-2{
+        width: 15rem;
+        right: -9rem;
+    }
+
+    .about-headline {
+        font-size: 4.5rem;
+    }
+
+    }
+  @media(max-width: 60em) {
+    .h6 {
+        height: 22rem;
+    }
+
+    .news-text {
+        padding-right: 9rem;
+        padding-left: 9rem;
+    }
+
+    .kuki-line {
+        width: 12rem;
+        left: -9rem;
+    }
+
+    .kuki-line-2{
+        width: 12rem;
+        right: -9rem;
+    }
+
+    .kuki-text p,
+    .kuki-text-2 p{
+        width: 90%;
+    }
+
+    .about-headline {
+        font-size: 4rem;
+    }
+  }
+
+    @media(max-width: 55em) {
+       .line-logo{
+           width: 3.5rem;
+       }
+       .image-bottom{
+        display: none;
+    }
+
+       .image-top {
+           position: unset;
+       }
+
+       .image-position{
+           display: flex;
+           justify-content: flex-end;
+
+       }
+       body,
+       .caption {
+        font-size: 0.7rem;
+
+       }
+       .button{
+           font-size: .5rem;
+       }
+
+       .left-text {
+        font-size: 2rem;
+
+       }
+
+       .kuki-line {
+        width: 8rem;
+        left: -5rem;
+    }
+
+        .kukie-line-2{
+        width: 8rem;
+        right: -5rem;
+    }
+
+    .gallery-slide{
+        width: 100%;
+        margin: 0;
+    }
+
+    .collection-slider .slider-cont{
+        margin-left: 0;
+    }
+
+    .flickity-page-dots {
+        text-align: center !important;
+    }
+
+    .about-headline {
+        font-size: 3.5rem;
+    }
+
+    .about-text{
+        margin-right: 9rem;
+    }
+       
+    }
+    @media(max-width: 48em) {
+        .divider-text h1{
+            font-size: 1.75rem;
+        }
+        .news-text {
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
+
+        .divider-logo {
+
+            bottom: -7rem;
+
+        }
+
+        .kuki-text h3,
+        .kuki-text-2 h3{
+            font-size: 2.5rem;
+        }
+
+        .line-container{
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .kuki-line {
+            width: 0.5px;
+            height: 8rem;
+            top: auto;
+            right: 60%;
+            left: auto;
+            bottom: -5rem;
+        
+        }
+
+        .kuki-line-2 {
+            width: 0.5px;
+            height: 8rem;
+            top: auto;
+            right: 40%;
+            left: auto;
+            bottom: -5rem;
+        }
+
+        .kuki-image {
+            width: 100%;
+        }
+
+        .kuki-box{
+            width: 70%;
+            padding-right: 6rem;
+            padding-left: 6rem;
+        }
+
+        .kuki-text{
+            width:100%;
+            padding-right: 6rem;
+            padding-left: 10rem;
+
+            margin-top: 6rem;
+            margin-left: 0;
+        }
+
+        .kuki-text-2 {
+            width:100%;
+            padding-right: 10rem;
+            padding-left: 6rem;
+
+            margin-top: 6rem;
+            margin-right: 0;
+        }
+
+        .kuki-text p,
+        .kuki-text-2 p{
+            width: 100%;
+        }
+
+        .collection-headline{
+            font-size: 4rem;
+        }
+        .about-name {
+            display: flex;
+            white-space: nowrap;
+            margin: 0 auto;
+            overflow: hidden;
+            transform: translatex(-80%);
+            width: 500%;
+        }
+        @keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-80%);
+            }
+          } 
+
+          .about-stroke {
+              -webkit-text-stroke: 1px solid #102636 !important;
+          }
+
+          .main-navigation .icon-container {
+              display:none;
+          }
+
+          .logo-head {
+              width: 3rem;
+          }
+
+          .menu-toggle {
+              width: 2rem;
+          }
+
+          .menu-nav .menu-item a {
+              font-size: 2rem;
+          }
+
+          .menu-nav .menu-item li{
+              margin: 1rem;
+          }
+
+          .site-info-a,
+          .site-info-b{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+          .footer-menu{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .footer-cont{
+            display: none;
+        }
+        .footer-menu{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            
+        }
+        .footer-menu-dark a,
+        .footer-menu-light a{
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+       .footer-news {
+            display: none;
+        }
+
+        .bottom-icon {
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+
+            margin-top: 2rem;
+        }
+        .footer-news-cnt{
+            align-items: center;
+        }
+
+        .footer2-menu .menu-item{
+            font-size: 0.5rem;
+        }
+
+        .site-footer a{
+            font-size: .6rem;
+        }
+
+        .footer-logo img{
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+
+
+        .site-footer li, 
+        .contact a{
+            margin-bottom: 0rem;
+        }
+
+        .footer-form {
+            margin-top: 2rem;
+        }
+
+        .copyright {
+            font-size: .5rem;
+        }
+
+        .explore-title {
+            font-size: 2rem;
+        }
+    }
+
+
+    @media(max-width: 30em) {
+        .line-logo{
+            width: 2.5rem;
+        
+        }
+        .image-position{
+            justify-content: center;
+ 
+        }
+        .h6 {
+            height: 20rem;
+        }
+
+        .left-text {
+            font-size: 1.5rem;
+    
+           }
+
+        .submit{
+            height: 0.75rem;
+        }
+
+        .dekuki-form::placeholder{ 
+           font-size: 0.5rem;
+        }
+
+        .hero-container{
+            height: 53vh;
+        }
+
+        .kuki-box{
+            width: 100%;
+            padding-right: 6rem;
+            padding-left: 6rem;
+        }
+
+
+        .kuki-text{
+            width:100%;
+            padding-right: 1.5rem;
+            padding-left: 2rem;
+
+            margin-top: 6rem;
+            margin-left: 0;
+        }
+        .kuki-text-2 {
+            width:100%;
+            padding-right: 1.5rem;
+            padding-left: 2rem;
+
+            margin-top: 6rem;
+            margin-right: 0;
+        }
+
+        .kuki-text h3,
+        .kuki-text-2 h3{
+            font-size: 2rem;
+        }
+        .carousel-cell {
+            height: 75vh;
+          }
+          .about-headline {
+            font-size: 2.5rem;
+            margin-top: 2rem !important;
+        }
+
+        .about-text{
+            margin-right: 6rem;
+            margin-top: 2rem !important;
+        }
+
+        .marquee {
+            font-size: 4rem;
+            padding: 1rem;
+        }
+
+        .logo-head {
+            width: 2.5rem;
+        }
+
+        .menu-toggle {
+            width: 1.5rem;
+        }
+    
+    }
